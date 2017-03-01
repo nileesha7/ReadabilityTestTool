@@ -1,0 +1,39 @@
+body{
+	background-color: #EEEEEE;
+}
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 5%;
+}
+p{
+	line-height: 150%;
+}
+#input-space{
+	background-color: #002266;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color: white;
+}
+
+#url{
+	width: 65%;
+}
+
+#about{
+	margin-left: 20%;
+	margin-right: 20%
+}
+
+#directInput{
+	height: 100px;
+	width: 90%;
+}
+
+.bold-text{
+	font-weight: bold;
+
+}

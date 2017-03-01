@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<title>Readable - Free Readability Test Tool</title>
+</HEAD>	
+<body>
+	<div id="top-part">
+		<center>
+			<h1>READABILITY TEST TOOL<br></h1>
+			<h2>Quick and easy way to test the <br> readability of your work.</h2>
+			<button type="button" class="btn btn-primary" id="testUrl-btn">TEST BY URL</button>
+			<button type="button" class="btn btn-primary" id="testDirectInput-btn">TEST BY DIRECT INPUT</button>
+			<button type="button" class="btn btn-primary" id="test-referer-btn">TEST BY REFERER</button>
+		</center>
+		<div id = "input-space">
+			<div id = "test-by-url">
+				<h2>Test by URL</h2>
+				<p>Test the readability of a web page:</p>
+				<form class="form-inline">   
+					<input id = "url" type ="text" class="form-control"  placeholder="http://">
+					<button type = "submit" id = "Submit" class="btn btn-danger">CALCULATE READABILITY</button>
+				</form>
+				<br>
+				<p><div class = "bold-text"> EXAMPLE WEB ADDRESSES:</div></p>
+				<p>» http://www.example.com/ for a complete web page</p>
+				<p>» http://www.example.com/#mainContent for part of a web page, based on a content area within a container <div id="mainContent"></div></p>
+				<p>Note: Testing only the main content part of the page removes any skew in the results due to navigational elements</p>
+			</div>
+			<div id = "test-by-referer">
+				<h2>Test by Referer</h2>
+				<p>Add a link on your web pages. You'll only be a click away from your readability scores. </p>
+				<p><div class = "bold-text">TO TEST THE READABILITY OF A WHOLE OF A PAGE</div></p>
+				<p>Link to us at: </p>
+				<p><a href="http://www.webpagefx.com/tools/read-able/referer.php" title="Read Able. The Readability Test Tool"> Test Readability </a></p>
+				<br>
+				TO TEST THE READABILITY OF A SINGLE AREA OF THE PAGE
+				Link to us at:
+				<a href="http://www.webpagefx.com/tools/read-able/referer.php?id=mainContent" title="The Readability Test Tool"> Test Readability </a>
+				This will eliminate testing for navigational elements.
+
+			</div>
+			<div id = "test-directInput">
+				<h2>Test by Direct Input</h2>
+				<form>   
+					<input id = "directInput" type ="text" placeholder="Enter text to check the readability:">
+					<br>
+					<p>HTML is allowed - it will be stripped from the text.</p>
+					<br>
+					<button type = "submit" id = "Submit" class="btn btn-danger">CALCULATE READABILITY</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div id = about>
+		<div class="row">
+			<div class="col-sm-6">
+				<h2>Best Tool Available</h2>
+				<p>The Readability Test Tool provides a quick and easy way to test the readability of your work. It is the most flexible readability software for assessing readability formulas.</p>
+				<p>You can test all, or part of a web page, or simply type in your text. Link directly from your page - it will compute the results for the referring page.</p>
+			</div>
+  			<div class="col-sm-6">
+  				<h2>Who is it for?</h2>
+  				<p>Whether you're a developer, copywriter, marketer, usability assessor or SEO expert, chances are you already have plenty on your mind. The Readability Test Tool saves you the hassle and will help streamline your workflow. Thanks to The Readability Test Tool's simple interface, novices and experts alike will enjoy using it.</p>
+  			</div>
+		</div>
+
+		<h2>What it does</h2>
+		<p>The Readability Test Tool takes the text on your web page and gives a score for the most used readability indicators.</p> <br>
+		<ul>
+			<a href = "flesch-kincaid.html"><li>Flesch Kincaid Reading Ease</li></a><br>
+			<a href = "flesch-kincaid.html"><li>Flesch Kincaid Grade Level</li></a><br>
+			<a href = "gunning-fog.html"><li>Gunning Fog Score</li></a><br>
+			<a href = "coleman-liau-index.html"><li>Coleman Liau Index</li></a><br>
+			<a href = "automated-readability-index.html"><li>Automated Readability Index (ARI)</li></a><br>
+			<a href = "smog-index.html"><li>SMOG Index</li></a><br>
+		</ul>
+
+		<h2>Why is readability important?</h2>
+		<p>Did you know that the average American adult reads at a 7th to 9th grade level? Keeping your content within that range is a great way to maximize your readership, and our readability tool is here to help.
+		</p>
+		<p>It doesn’t matter what you’re saying if no one can comprehend it. Understanding your audience and their readability expectations is one of the most important parts of writing. It can be marketing, teaching, or working on a novel. No matter the medium, your content has to be accessible in order for it to succeed.
+		</p>
+		<p>
+		That’s not all, though: If you’re writing for something like a medical publication, you don’t want to write at a 3rd grade level. So not only should your content be accessible, it needs to be demographically appropriate as well.
+		</p>
+		<p>If your audience expects a specific type of writing, failure to meet that expectation can be jarring. They may become preoccupied with the style of your writing, which causes your content to lose much of its value. Just think of how often you’ve heard people complain about the writing in a novel like Moby-Dick, even though it’s long been a household name. The conversation becomes about the writing itself, rather than the content.</p>
+		<p>It can be hard to write consistently at a certain grade level, especially if doing so is contrary to your usual writing style. Our tool lets you check your content as you create it, so you can fine-tune your writing during the process instead of afterwards.
+		</p>
+		<p>Use this tool to measure the readability of your content and you’ll end up with a masterpiece tailor-made for your audience. Don’t shoot yourself in the foot with poor readability – what you say is often less important than how you say it.</p>
+	</div>
+</body>
+
+</HTML>
